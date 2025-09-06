@@ -1,0 +1,114 @@
+// <uniquifier>: Use a unique and descriptive class name
+		// <weight>: Use a value from 100 to 900
+		.inter-tight-<uniquifier> {
+			font-family: "Inter Tight";
+			font-optical-sizing: auto;
+			font-weight: <weight>;
+			font-style: normal;
+		}
+		
+		.info-table-mobile{
+			display: none;
+		}
+		#pic{
+			 border-radius: 50%;
+			 display: inline-block;
+		}
+		.center{
+			text-align: center;
+		}
+		footer{
+			flex: 0 0 auto;
+			min-height: 130px;
+			background: #000;
+			background-color: rgb(0, 0, 0);
+			background-position-x: 0%;
+			background-position-y: 0%;
+			background-repeat: repeat;
+			background-attachment: scroll;
+			background-image: none;
+			background-size: auto;
+			background-origin: padding-box;
+			background-clip: border-box;
+		}
+		.copywright{
+			text-align: center;
+			color: #999;
+			margin-bottom: 40px;
+			font-size: 15pt;
+			font-family: "Inter Tight";
+		}
+		.fd {
+			margin-top: 20%;
+			text-align: center;
+			color: #999;
+			font-family: "Inter Tight"; 
+			max-width: 500px;
+			margin: auto;
+		}
+		.fa{
+			color: #999 !important;
+			font-weight: bold;
+			font-size: 17pt;
+		}
+		#adpc1{
+				position: absolute;
+				margin-left: 3%;			
+			}
+		#pic-mob{
+				display: none;
+			}
+		.ft-mob{
+				display: none;
+			}
+		#fff{
+			visibility: hidden;
+		}
+		
+		input button{
+			font-size: 21px;
+		}
+		@media only screen and (max-device-width: 900px) {
+			#adpc1{
+				display: none;
+			}
+			.content{
+				max-width: 800px;
+			}
+			.info-table{
+				display: none;
+			}
+			.info-table-mobile{
+				display: inline-block;
+				max-width: 350px;
+				margin-left: 27%;
+			}
+			#pic{
+				display: none;
+			}
+			#pic-mob{
+				display: inline-block;
+				border-radius: 50%;
+			}
+			.ft-mob{
+				display: inline-block;
+			}
+			.copywright{
+			font-size: 15pt;
+			}
+		.fa{
+			font-size: 28pt;
+			}
+		.ft-ex{
+				display: none;
+			}
+		.ft-mob{
+			display: inline-block;
+			}
+		#fff{
+			visibility: visible;
+		}
+		.head-table{
+			font-size: 29pt;
+			}
+		}
