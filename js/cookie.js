@@ -1,4 +1,3 @@
-<script>
     // Установка cookie с возможностью указания срока
     function setCookie(name, value, days) {
         let expires = "";
@@ -37,4 +36,3 @@
 
     // Инициализация
     document.addEventListener('DOMContentLoaded', checkCookies);
-</script>

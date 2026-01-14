@@ -1,4 +1,5 @@
 #cookie_note {
+	font-family: "Inter Tight";
     display: none;
     position: fixed;
     z-index: 100;
@@ -14,14 +15,19 @@
 
 #cookie_note p {
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: left;
     color: black;
+}
+
+#cookie_note a {
+	font-size: 0.9rem;
 }
 
 #cookie_note .btn-sm {
     display: block;
     margin: 0 auto;
+    margin-left: 0.1rem;
 }
 
 .cookie_accept {
@@ -100,7 +106,7 @@
 			font-size: 21px;
 		}
 		#biz{
-			max-width: 720px;
+			max-width: 710px;
 		}
 		@media only screen and (max-device-width: 900px) {
 			#adpc1{
