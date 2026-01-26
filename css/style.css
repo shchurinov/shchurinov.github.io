@@ -37,12 +37,12 @@
 #cookie_note.show {
     display: flex;
 }
-		.inter-tight-<uniquifier> {
-			font-family: "Inter Tight";
-			font-optical-sizing: auto;
-			font-weight: <weight>;
-			font-style: normal;
-		}
+.inter-tight-<uniquifier> {
+	font-family: "Inter Tight";
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
 		
 		.info-table-mobile{
 			display: none;
