@@ -40,6 +40,11 @@
 			max-width: 350px;
 			margin: auto;
 		}
+		@media only screen and (max-device-width: 400px) {
+		.small{
+			display: none;
+			}
+		}
 	</style>
 	<script type="text/javascript" src="js/cookie.js"></script>
 	<!-- Yandex.RTB -->
@@ -215,22 +220,23 @@
 	<footer>
 		<br><br>
 		<table class="fd">
+			<br>
 			<tr>
-				<td><a class="fa" href="https://www.shchurinov.ru/">Обо&nbsp;мне</a></td>
+				<td><a class="fa" href="http://www.shchurinov.ru/">Обо&nbsp;мне</a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://www.shchurinov.ru/#c2">Контакты</a></td>
+				<td><a class="fa" href="http://www.shchurinov.ru/#c2">Контакты</a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
 				<td><a class="fa" href="https://youtube.com/@zapiski_perev">Ютьюб</a></td>
 				<td>&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
-				<td>&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
-				<td>&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
 				<td><a class="fa ft-ex" href="http://www.shchurinov.ru/services">Проверенные&nbsp;сервисы</a></td>
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa ft-ex" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
-				<td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
+				<td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td></span>
 				<td>&nbsp;&nbsp;</td>
 			</tr>
 		</table>
@@ -241,8 +247,8 @@
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
-				<td><a class="fa" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
-				<td>&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
 			</tr>
 		</table>
 		<span class="ft-mob"><br><br></span> 
@@ -251,8 +257,8 @@
 		<br> 
 	</footer>
 	<!-- START Cookie-Alert -->
-			<div id="cookie_note">
-			<p>Посещая сайт, вы соглашаетесь на обработку файлов cookie и других пользовательских данных. <a href="https://shchurinov.ru/cookie" target="_blank">Подробнее</a>. Заблокировать использование cookies сайтом можно в настройках браузера.</p>
+		<div id="cookie_note">
+			<p>Посещая сайт, вы соглашаетесь на обработку файлов cookie и других пользовательских данных. <a href="https://shchurinov.ru/cookie" target="_blank">Подробнее</a>. <span class="small">Заблокировать использование cookies сайтом можно в настройках браузера.</span></p>
 			<button class="button cookie_accept btn btn-primary btn-sm">ОК</button>
 			</div>
 	<!-- END Cookie-Alert -->

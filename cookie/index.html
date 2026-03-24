@@ -38,6 +38,11 @@
 			max-width: 350px;
 			margin: auto;
 		}
+		@media only screen and (max-device-width: 400px) {
+		.small{
+			display: none;
+			}
+		}
 	</style>
 	<script type="text/javascript" src="https://shchurinov.ru/js/cookie.js"></script>
 	<script type="text/javascript" src="https://shchurinov.ru/js/button.js"></script>
@@ -122,15 +127,15 @@
 				<td>&nbsp;&nbsp;&nbsp;</td>
 				<td><a class="fa" href="https://youtube.com/@zapiski_perev">Ютьюб</a></td>
 				<td>&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
+				<span class="small"><td><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
 				<td>&nbsp;&nbsp;</td>
 				<td><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
-				<td>&nbsp;&nbsp;</td>
+				<td>&nbsp;&nbsp;</td></span>
 				<td><a class="fa ft-ex" href="http://www.shchurinov.ru/services">Проверенные&nbsp;сервисы</a></td>
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa ft-ex" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
-				<td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
+				<span class="small"><td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td></span>
 				<td>&nbsp;&nbsp;</td>
 			</tr>
 		</table>
@@ -152,7 +157,7 @@
 	</footer>
 	<!-- START Cookie-Alert -->
 		<div id="cookie_note">
-			<p>Посещая сайт, вы соглашаетесь на обработку файлов cookie и других пользовательских данных. <a href="https://shchurinov.ru/cookie" target="_blank">Подробнее</a>. Заблокировать использование cookies сайтом можно в настройках браузера.</p>
+			<p>Посещая сайт, вы соглашаетесь на обработку файлов cookie и других пользовательских данных. <a href="https://shchurinov.ru/cookie" target="_blank">Подробнее</a>. <span class="small">Заблокировать использование cookies сайтом можно в настройках браузера.</span></p>
 			<button class="button cookie_accept btn btn-primary btn-sm">ОК</button>
 			</div>
 	<!-- END Cookie-Alert -->

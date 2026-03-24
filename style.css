@@ -61,6 +61,9 @@
 		.ft-mob{
 				display: none;
 			}
+		.small{
+			display: inline-block;
+		}
 		#fff{
 			visibility: hidden;
 		}

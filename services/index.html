@@ -53,6 +53,17 @@
 			margin-left: 2%;
 			margin-right: 2%;
 		}
+		@media only screen and (max-device-width: 400px) {
+		.small{
+			display: none;
+			}
+			#biz{
+			max-width: 250px;
+			}
+			#bestch{
+				max-width: 150px;
+			}
+		}
 	</style>
 	<script type="text/javascript" src="https://www.shchurinov.ru/js/button.js"></script>
 	<!-- Yandex.RTB -->
@@ -77,11 +88,11 @@
 		<h1>&nbsp;&nbsp;&nbsp;Записки переводчика</h1>
 		<table class="hd">
 			<tr>
-				<td><a href="http://www.shchurinov.ru"><span class="head-table">Главная</span></a></td>
+				<td><a href="https://www.shchurinov.ru"><span class="head-table">Главная</span></a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
-				<td><a href="http://www.shchurinov.ru/#c2"><span class="head-table">Контакты</span></a></td>
+				<td><a href="https://www.shchurinov.ru/#c2"><span class="head-table">Контакты</span></a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
-				<td><a href="#c1"><span class="head-table">Проверенные&nbsp;сервисы</span></a></td>
+				<td class="small"><a href="#c1"><span class="head-table">Проверенные&nbsp;сервисы</span></a></td>
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a href="#"><span class="head-table">Магазин</span></a></td>
 				<td>&nbsp;</td>-->
@@ -169,7 +180,7 @@
 			<h4 id="str4">Обмен электронных валют (работает за границей)</h4>
 		<div>
 			<a href="https://www.bestchange.ru/">
-				<img src="https://www.bestchange.ru/images/logo-8.png" alt="Обменник Bestchange">
+				<img id="bestch" src="https://www.bestchange.ru/images/logo-8.png" alt="Обменник Bestchange">
 			</a>
 			<p>
 			<a target="_blank" href="https://www.bestchange.ru/">www.bestchange.ru</a></p>
@@ -259,22 +270,23 @@
 		<footer>
 		<br><br>
 		<table class="fd">
+			<br>
 			<tr>
-				<td><a class="fa" href="https://www.shchurinov.ru/">Обо&nbsp;мне</a></td>
+				<td><a class="fa" href="http://www.shchurinov.ru/">Обо&nbsp;мне</a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://www.shchurinov.ru/#c2">Контакты</a></td>
+				<td><a class="fa" href="http://www.shchurinov.ru/#c2">Контакты</a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
 				<td><a class="fa" href="https://youtube.com/@zapiski_perev">Ютьюб</a></td>
 				<td>&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
-				<td>&nbsp;&nbsp;</td>
-				<td><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
-				<td>&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://vk.com/zapiski_perev">ВК</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
 				<td><a class="fa ft-ex" href="http://www.shchurinov.ru/services">Проверенные&nbsp;сервисы</a></td>
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa ft-ex" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
-				<td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
+				<td><a class="fa ft-ex" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td></span>
 				<td>&nbsp;&nbsp;</td>
 			</tr>
 		</table>
@@ -285,8 +297,8 @@
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
-				<td><a class="fa" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
-				<td>&nbsp;&nbsp;</td>
+				<td class="small"><a class="fa" href="https://ishosting.com/affiliate/NjE4NSM2">Заграничный&nbsp;хостинг</a></td>
+				<td class="small">&nbsp;&nbsp;</td>
 			</tr>
 		</table>
 		<span class="ft-mob"><br><br></span> 
@@ -294,5 +306,11 @@
 		<span class="ft-mob"><br></span>
 		<br> 
 	</footer>
+	<!-- START Cookie-Alert -->
+		<div id="cookie_note">
+			<p>Посещая сайт, вы соглашаетесь на обработку файлов cookie и других пользовательских данных. <a href="https://shchurinov.ru/cookie" target="_blank">Подробнее</a>. <span class="small">Заблокировать использование cookies сайтом можно в настройках браузера.</span></p>
+			<button class="button cookie_accept btn btn-primary btn-sm">ОК</button>
+			</div>
+	<!-- END Cookie-Alert -->
 </body>
 </html>
