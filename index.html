@@ -40,10 +40,22 @@
 			max-width: 350px;
 			margin: auto;
 		}
+		#mailsmall{
+			display: none;
+			}
+		#contactline{
+			font-size: 25px;
+		}
 		@media only screen and (max-device-width: 400px) {
 		.small{
 			display: none;
 			}
+		#contactline{
+			font-size: 17px;
+		}
+		#mailsmall{
+			display: inline-block;
+		}
 		}
 	</style>
 	<script type="text/javascript" src="js/cookie.js"></script>
@@ -185,15 +197,15 @@
 		<p> <a class="link" href="https://www.shchurinov.ru/services">Проверенные сервисы от меня</a></p>
 		<br>
 		<h2 id="c2">Связь со мной:</h2>		
-		<p><noindex><span style="font-size: 25px;">Почта: </span><script type="text/javascript" src="js/mail.js"></script></span> 
+		<p><noindex><span id="contactline">Почта: </span><span class="small"><script type="text/javascript" src="js/mail.js"></script></span><span id="mailsmall"><script type="text/javascript" src="js/mailsmall.js"></script></span></span> 
 		<noscript>
 			<span>
 				<strong>Внимание!</strong> Для корректной работы сайта необходимо включить JavaScript в вашем браузере.
 			</span>
 		</noscript>
 		</noindex></p>
-		<p><span style="font-size: 25px;">Телеграм (сообщения канала): </span><a href="https://t.me/zapiski_perev">https://t.me/zapiski_perev</a></p>
-		<p><span style="font-size: 25px;">Bluesky: </span><a href="https://bsky.app/profile/iuriis.bsky.social">@iuriis.bsky.social</a></p>
+		<p><span id="contactline">Телеграм (сообщения канала): </span><a id="contactline" href="https://t.me/zapiski_perev">https://t.me/zapiski_perev</a></p>
+		<p><span id="contactline">Bluesky: </span><a id="contactline" href="https://bsky.app/profile/iuriis.bsky.social">@iuriis.bsky.social</a></p>
 		<!--<h2>Остальное:</h2>		
 		<p><a href="https://shchurinov.ru">Дизайн и реклама</a></p>
 		<p><a href="https://elibrary.ru">Научные работы</a></p> -->
@@ -227,7 +239,7 @@
 				<td class="small">&nbsp;&nbsp;</td>
 				<td class="small"><a class="fa" href="https://t.me/zapiski_perev">ТГ</a></td>
 				<td class="small">&nbsp;&nbsp;</td>
-				<td><a class="fa ft-ex" href="http://www.shchurinov.ru/services">Проверенные&nbsp;сервисы</a></td>
+				<td><a class="fa ft-ex" href="https://www.shchurinov.ru/services">Проверенные&nbsp;сервисы</a></td>
 				<td>&nbsp;&nbsp;</td>
 				<!--<td><a class="fa ft-ex" href="#">Магазин</a></td>
 				<td>&nbsp;</td>-->
