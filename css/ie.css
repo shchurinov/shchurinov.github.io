@@ -26,6 +26,6 @@ p .link{
     vertical-align: middle;
  }
 #crypto {
-	display: inline;
+display: inline;
 	visibility: visible;
 }
