@@ -37,6 +37,10 @@
 #cookie_note.show {
     display: flex;
 }
+
+.oldie {
+	display: none;
+}
 .inter-tight-<uniquifier> {
 	font-family: "Inter Tight";
 	font-optical-sizing: auto;
