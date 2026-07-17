@@ -9,7 +9,8 @@
 	display: none;
 }
 .oldie {
-	display: inline-block;
+	display: block;
+	visibility: visible;
 }
 #dntn {
 	display: none;
@@ -20,3 +21,7 @@ p .link{
 #biz {
 	display: none;
 }
+.info-table {
+    text-align: center; 
+    vertical-align: middle;
+ }
