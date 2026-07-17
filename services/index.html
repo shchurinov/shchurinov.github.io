@@ -93,9 +93,9 @@
 		<h1>&nbsp;&nbsp;&nbsp;Записки переводчика</h1>
 		<table class="hd">
 			<tr>
-				<td><a href="https://www.shchurinov.ru"><span class="head-table">Главная</span></a></td>
+				<td><a id="dntn" href="https://www.shchurinov.ru"><span class="head-table">Главная</span></a><a class="oldie" href="http://www.shchurinov.ru"><span class="head-table">Главная</span></a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
-				<td><a href="https://www.shchurinov.ru/#c2"><span class="head-table">Контакты</span></a></td>
+				<td><a id="dntn" href="https://www.shchurinov.ru/#c2"><span class="head-table">Контакты</span></a><a class="oldie" href="http://www.shchurinov.ru/#c2"><span class="head-table">Контакты</span></a></td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
 				<td class="small"><a href="#c1"><span class="head-table">Проверенные&nbsp;сервисы</span></a></td>
 				<td>&nbsp;&nbsp;</td>
@@ -184,9 +184,15 @@
 		</div><br>
 			<h4 id="str4">Обмен электронных валют (работает за границей)</h4>
 		<div>
+			<!--[if lte IE 7]>
+				<comment>
+			<![endif]-->
 			<a target="_blank" href="https://www.bestchange.ru/" onclick="this.href='https://www.bestchange.ru/?p=1341944'">
 				<img id="bestch" src="https://www.bestchange.ru/images/logo-8.png" alt="Обменник Bestchange">
 			</a>
+			<!--[if lte IE 7]>
+				</comment>
+			<![endif]-->
 			<p>
 			<a target="_blank" href="https://www.bestchange.ru/" onclick="this.href='https://www.bestchange.ru/?p=1341944'">www.bestchange.ru</a> производит мониторинг автоматических обменных пунктов электронных валют. Сервис непрерывно ведёт наблюдение за наиболее крупными и надёжными обменными сервисами для того, чтобы вы всегда могли узнать, в каком обменном пункте можно наиболее выгодно произвести обмен одной электронной валюты на другую. Курсы обмена и резервы валют обновляются каждые 5 секунд по всем обменным пунктам из списка.
 			<br>Есть также сервисы перевода с российской карты на иностранную и наоборот.
@@ -197,13 +203,16 @@
 		<h4 id="str5">Услуги переводчика</h4>
 		<div>
 			<p>Лично специализируюсь на переводах с <b>немецкого</b> или <b>английского</b> на русский и наоборот. Имею опыт <b>письменного</b> и <b>устного последовательного перевода</b> на международных мероприятиях и бизнес-переговорах. Работаю преимущественно на юге России, иногда бываю в Москве. 
-			<br>Контакт:  </span><script type="text/javascript" src="https://shchurinov.ru/js/mail.js"></script></span>
+			<br>Контакт:  <span><script type="text/javascript" src="https://shchurinov.ru/js/mail.js"></script></span>
+			<!--[if lte IE 5]>
+				<script type="text/javascript" src="http://shchurinov.ru/js/mail.js"></script>
+			<![endif]-->
 			<br>Юрий Сергеевич Щуринов.</p>
 		</div>
 		<br>
 		<h4 id="str6">Работа с изображениями</h4>
 		<div>
-			<p>Для работы с изображениями использую известный всем <a href="https://www.adobe.com/ru/products/photoshop.html">Adobe Photoshop</a>, иногда бесплатный <a href="https://www.getpaint.net/">Paint.net</a> (или его аналог <a href="https://www.pinta-project.com/">Pinta</a> для GNU/Linux), а для обработки большого количества картинок подойдёт Phatch (<a href="https://snapcraft.io/phatch-gui">Snap</a>, <s><a href="https://aur.archlinux.org/packages/phatch">AUR</a></s> <a href="https://web.archive.org/web/20240217181039/https://aur.archlinux.org/packages/phatch?O=80">архивировано</a>, <a href="https://github.com/firestrand/phatch">GitHub</a>).</p>
+			<p>Для работы с изображениями использую известный всем <a href="https://www.adobe.com/ru/products/photoshop.html">Adobe Photoshop</a> <a class="oldie" href="http://old-dos.ru/files/file_366.html">&nbsp;(для старых систем)</a>, иногда бесплатный <a href="https://www.getpaint.net/">Paint.net</a> (или его аналог <a href="https://www.pinta-project.com/">Pinta</a> для GNU/Linux), а для обработки большого количества картинок подойдёт Phatch (<a href="https://snapcraft.io/phatch-gui">Snap</a>, <s><a href="https://aur.archlinux.org/packages/phatch">AUR</a></s> <a href="https://web.archive.org/web/20240217181039/https://aur.archlinux.org/packages/phatch?O=80">архивировано</a>, <a href="https://github.com/firestrand/phatch">GitHub</a>).</p>
 		</div>
 		<br>
 		<h4 id="str7">Счёт для бизнеса бесплатно</h4>
@@ -249,11 +258,23 @@
 		<h4 id="str12">Билеты на поезд бесплатно</h4>
 		<div>
 			<p>Если часто ездите на поездах, рекомендую воспользоваться программой <a href="https://rzd-bonus.ru/">РЖД-бонус</a>. За накопленные баллы можно приобретать билеты на поезд. Оформить билет за баллы можно в вагоны купе, СВ, Люкс, а также в вагоны с местами для сидения поездов АО «ФПК», ДОСС ОАО «РЖД», АО «Пассажирская компания «Сахалин».
-			<br><br>В программе есть 4 уровня: </p>
+			<br><br>В программе есть 4
+			<!--[if lte IE 7]>
+				уровня.<comment>
+			<![endif]-->уровня:</p>
 			<img id="biz" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6866584194807419f2224c90_68665c74f926653f1d9f3f89/scale_1200" alt="Уровни программы РЖД-бонус">
+		<!--[if lte IE 7]>
+				</comment></p>
+			<![endif]-->
 		</div>
 		<br>
-		<h4 id="str13">Звонки в роуминге бесплатно (VoWiFi)<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Wifi-calling.svg" width="21px" width="height" alt=""></h4>
+		<h4 id="str13">Звонки в роуминге бесплатно (VoWiFi)
+		<!--[if lte IE 7]>
+				<comment>
+			<![endif]--><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Wifi-calling.svg" width="21px" width="height" alt="">
+			<!--[if lte IE 7]>
+				</comment>
+			<![endif]--></h4>
 		<div>
 			<p>Технология VoWiFi (Voice over Wi-Fi) позволяет пользователям сотовой связи совершать голосовые вызовы в зонах, где отсутсвтует покрытие оператора, но есть покрытие Wi-Fi.
 			Можно звонить и на мобильные номера, и на городские. Вместо базовой станции оператора связи, трафик пойдёт через Wi-Fi.
