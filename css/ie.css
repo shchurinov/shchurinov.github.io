@@ -29,3 +29,6 @@ p .link{
 display: inline;
 	visibility: visible;
 }
+#bestch {
+	display: none;
+}

@@ -1,6 +1,7 @@
 User-agent: *
-Disallow: /manifest.webmanifest
 Disallow: /donate/
 Disallow: /js/
 Disallow: /css/
+Disallow: /cookie/
+Disallow: /404.html
 Sitemap: https://www.shchurinov.ru/sitemap.xml
